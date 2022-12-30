@@ -28,8 +28,6 @@ int main(int argc, char** argv) {
         }
     }
 
-//    std::cout << filename << '\n' << tickets << '\n' << salt;
-
     freopen(filename.c_str(), "r", stdin);
 
     std::vector<std::pair<std::string, uint32_t>> personWithTicket;
